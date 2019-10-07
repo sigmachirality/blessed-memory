@@ -1,0 +1,38 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "A terminal GUI-based memory game",
+  "main": "run.js",
+  "author": "Daniel Tao",
+  "scripts": {
+    "play": "node run.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react-blessed": "^0.6.1"
+  },
+  "peerDependencies": {
+    "blessed": "^0.1.81",
+    "react": "^16.8.0",
+    "react-devtools-core": "^3.0.0",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "invariant": "^2.2.0",
+    "lodash": "^4.x.x",
+    "neo-blessed": "^0.2.0",
+    "rollup": "^0.65.0",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  }
+}
